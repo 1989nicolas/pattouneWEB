@@ -1,0 +1,22 @@
+___ToDoList___
+--------------
+num max : 22
+--------------
+2. [CSS] revoir la bordure des onglets
+5. [API] pouvoir gérer plusieurs animaux dans l'api
+6. [API] ajouter un contrôle si animal déjà inactif
+7. [API] tableau des valeurs doublées dans le retour json de l'api
+10. [API] mettre en place la consultation d'une seule ressource via animal/17
+11. [API] mettre en place la mise à jour d'une ressource via animal/17
+12. [API] mettre la methode get toutes les ressources dans le chemin animaux
+13. [API] mettre un chemin get animaux/all pour avoir les animaux même inactif
+14. [HTML] corriger les probèmes de titre dans le head dans la page debut doc
+15. [API][SQL] créer une base de données et une API pour gérer les tâches du projet
+16. [HTML] message d'inactivation = donner nom et type de l'animal
+17. [SQL][API] gérer un utilisateur spécifique pour l'API
+18. [SQL] Améliorer la base de données avec une table type animal
+19. [SQL][HTML] Restreindre la création par rapport à un type d'animal
+20. Gestion du calendrier républicain
+21. [API] Sécurisation API via un pseudo-jeton à transmettre dans l'API (header ou données)
+22. Sauvagarder code sur Git
+23. [HTML][SQL] sécurisation des accès avec compte utilisateur

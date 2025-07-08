@@ -1,0 +1,7 @@
+___DoneList___
+--------------
+9. [API] mettre en place l'api de création animal ==> 0.3.0
+8. mettre en place une liaison par api dans le site web ==> 0.4.0
+3. améliorer le système des versions avec la création d'une page versions ==> 0.4.0
+4. mettre en format tableau la liste des animaux dans le rendu web ==> 0.4.0
+1. [HTML] transformer le menu du header en dynamique (php ou javascript) => ajouter un sous-menu pour les pages de debug (confirmation par exemple) ==> 0.4.0
