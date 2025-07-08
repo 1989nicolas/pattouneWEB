@@ -1,13 +1,15 @@
-<div class="footer-column">
+<div class="column">
     <h4>À propos</h4>
-    <p>Droits d'auteur : Nicolas LEFEVRE<br>
-    <a href ="version.php">Version Bourg Palette (<?php echo $versionProjet ?>)</a></p>
+    <p>
+        Droits d'auteur : Nicolas LEFEVRE
+        <br><a href ="version.php">Version Bourg Palette (<?php echo $versionProjet ?>)</a>
+        <br><a href="https://github.com/1989nicolas/pattouneWEB.git">Projet Github</a>
+    </p>
 </div>
-<div class="footer-column">
-    <h4>Liens utiles</h4>
-    <ul>
-        <li><a href="gestion_projet.php">Gestion du projet</a></li>
-        <li><a href="../index.php">XAMP Config</a></li>
-        <li><a href="api/readme.txt">Documentation API</a></li>
-    </ul>
+<div class="column">
+    <h4>Colonne centrale</h4>
+</div>
+<div class="column">
+    <h4>Colonne ok tiers</h4>
+    <img src="img/gig_nerd.gif" alt="Gif d'un nerd">
 </div>

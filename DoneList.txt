@@ -5,3 +5,4 @@ ___DoneList___
 3. améliorer le système des versions avec la création d'une page versions ==> 0.4.0
 4. mettre en format tableau la liste des animaux dans le rendu web ==> 0.4.0
 1. [HTML] transformer le menu du header en dynamique (php ou javascript) => ajouter un sous-menu pour les pages de debug (confirmation par exemple) ==> 0.4.0
+22. Sauvagarder code sur Git -> 0.4.0

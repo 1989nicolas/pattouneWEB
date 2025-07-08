@@ -1,6 +1,6 @@
 ___ToDoList___
 --------------
-num max : 22
+num max : 25
 --------------
 2. [CSS] revoir la bordure des onglets
 5. [API] pouvoir gérer plusieurs animaux dans l'api
@@ -18,5 +18,8 @@ num max : 22
 19. [SQL][HTML] Restreindre la création par rapport à un type d'animal
 20. Gestion du calendrier républicain
 21. [API] Sécurisation API via un pseudo-jeton à transmettre dans l'API (header ou données)
-22. Sauvagarder code sur Git
 23. [HTML][SQL] sécurisation des accès avec compte utilisateur
+24. [HTML] Facilier la navigation au clavier et par lecteur d'écran
+25. [CSS] définir un thème cohérent, limiter les couleurs
+26. [API] Tests automatisés à créer
+27. [API][SQL][HTML] Gestion de liste de course avec API fr.openfoodfacts.org/data

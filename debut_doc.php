@@ -5,6 +5,7 @@ $versionProjetMajeure = 0;
 $versionProjetMineure = 4;
 $versionProjetPatch = 0;
 $versionProjet = $versionProjetMajeure.".".$versionProjetMineure.".".$versionProjetPatch;
+$imgAlerteSecu = " <p align=center><img src='img/gif_alerteSecu.gif' alt='Alerte de sécurité'/></p>";
 ?>
 <!doctype html>
 <html lang="fr-fr">

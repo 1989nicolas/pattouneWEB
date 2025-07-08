@@ -3,15 +3,15 @@ echo "Date du jour : "; setlocale(LC_ALL, 'fr_FR') ; echo date('l d F Y')/*('l d
 $menuHeader = [
     "Accueil" => "page2.php",
     "Gestion des animaux" => "gestion_animal.php",
-    "Mode développeur" => [
-        "Page de confirmation" => "confirmation.php",
-        "Page de test" => "test.php",
-        "XAMP Config" => "../index.php",
+    "À propos du projet" => [
+        "Versions du projet" => "version.php",
+        "ToDo&Done List" => "gestion_projet.php",
         "Documentation API" => "api/readme.txt"
     ],
-    "Mode chef de projet" => [
-        "Versions du projet" => "version.php",
-        "ToDo&Done List" => "gestion_projet.php"
+    "-- [Mode Acilnos] --" => [
+        "Debug - Page de confirmation" => "confirmation.php",
+        "Page de test" => "test.php",
+        "XAMP Config" => "../index.php"
     ]
     ];
 ?>

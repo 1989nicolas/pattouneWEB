@@ -24,7 +24,7 @@ catch (Exception $e) {echo $msg_error.$e->getMessage()."</p>";
 
 if ($operation_form !== "create" && $operation_form !== "update_actif") //test operation formulaire
 {
-	echo $msg_error."Qu'est-ce que tu as fait vindiou ???<br>C'est un formulaire que je connais pas ?!?!</p>";
+	echo $msg_error."Qu'est-ce que tu as fait vindiou ???<br>C'est un formulaire que je connais pas ?!?!</p>".$imgAlerteSecu;
 }
 elseif ($operation_form === "create") { //operation création
 	$dataForAPI=[[

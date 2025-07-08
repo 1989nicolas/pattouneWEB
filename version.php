@@ -10,6 +10,8 @@ if($versionProjet!==$versionProjetDoc){
     Utilisation par le site web de l'API animal
     <br>Création de la page des versions
     <br>Mise au format tableau de la liste des animaux dans le rendu web
+    <br>Transformation du menu statique en menu dynamique avec des sous-menus
+    <br>Adaptation dans le footer (GIF rigolo, lien vers Git, suppresion des liens redondants avec le menu)
 </p>
 <h2>Itération 3</h2>
 <p>
