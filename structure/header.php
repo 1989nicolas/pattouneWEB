@@ -3,6 +3,7 @@ echo "Date du jour : "; setlocale(LC_ALL, 'fr_FR') ; echo date('l d F Y')/*('l d
 $menuHeader = [
     "Accueil" => "page2.php",
     "Gestion des animaux" => "gestion_animal.php",
+    "Liste des courses" => "listeCourses.php",
     "À propos du projet" => [
         "Versions du projet" => "version.php",
         "ToDo&Done List" => "gestion_projet.php",

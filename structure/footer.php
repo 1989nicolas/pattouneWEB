@@ -11,5 +11,5 @@
 </div>
 <div class="column">
     <h4>Colonne ok tiers</h4>
-    <img src="img/gig_nerd.gif" alt="Gif d'un nerd">
+    <img src="img/gig_nerd.gif" alt="Gif d'un chat à lunettes ressemblant à un nerd" height="150">
 </div>
