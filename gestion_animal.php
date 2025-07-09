@@ -1,4 +1,4 @@
-<?php require_once(__DIR__."/debut_doc.php");?>
+<?php require_once(__DIR__."/structure/debut_doc.php");?>
 <section class="contenu_ppe">
 <h1 role="heading" aria-level="1">Gestion des animaux</h1>
 <div class="tabs">
@@ -81,4 +81,4 @@
 	</div>
 </div>
 </section>
-<?php require_once(__DIR__."/fin_doc.php");?>
+<?php require_once(__DIR__."/structure/fin_doc.php");?>

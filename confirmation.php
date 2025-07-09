@@ -1,4 +1,4 @@
-<?php require_once(__DIR__."/debut_doc.php");?>
+<?php require_once(__DIR__."/structure/debut_doc.php");?>
 <section>
 <?php
 function variableForm ($name){
@@ -103,4 +103,4 @@ else {
 }
 ?>
 </section>
-<?php require_once(__DIR__."/fin_doc.php");?>
+<?php require_once(__DIR__."/structure/fin_doc.php");?>

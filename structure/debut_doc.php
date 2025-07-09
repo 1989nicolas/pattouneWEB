@@ -31,7 +31,7 @@ $imgAlerteSecu = " <p align=center><img src='img/gif_alerteSecu.gif' alt='Alerte
 			};
 			?>
 		</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="structure/style.css">
 	</head>
 	<body>
 		<header class="header" role="banner">

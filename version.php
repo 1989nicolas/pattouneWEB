@@ -1,4 +1,4 @@
-<?php require(__DIR__."/debut_doc.php"); 
+<?php require(__DIR__."/structure/debut_doc.php"); 
 $versionProjetDoc = "0.4.0";
 if($versionProjet!==$versionProjetDoc){
     echo"<p class='alerte'>Différence entre les numéros de versions affichées et documentées<br>Version : ".$versionProjetDoc." est documentée<br>Version : ".$versionProjet." est affichée !</p>";}
@@ -30,4 +30,4 @@ if($versionProjet!==$versionProjetDoc){
 </p>
 <h2>Itération 0</h2>
 <p>Initialisation du site</p>
-<?php require(__DIR__."/fin_doc.php");
+<?php require(__DIR__."/structure/fin_doc.php");

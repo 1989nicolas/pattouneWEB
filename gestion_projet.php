@@ -1,4 +1,4 @@
-<?php require_once("debut_doc.php");
+<?php require_once("./structure/debut_doc.php");
 //readfile("todolist.txt");
 
 $fichier = fopen("todolist.txt", "r");
@@ -13,4 +13,4 @@ while (!feof($fichier)) {
 }
 fclose($fichier);
 echo"<br>";
-require_once("fin_doc.php");
+require_once("./structure/fin_doc.php");

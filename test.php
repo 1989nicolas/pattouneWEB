@@ -1,4 +1,4 @@
-<?php require_once(__DIR__."/debut_doc.php");?>
+<?php require_once(__DIR__."/structure/debut_doc.php");?>
 <section class="contenu_test">
 <?php echo "début de la zone de test<br>";?>
 
@@ -32,4 +32,4 @@ $reponseJSON = file_get_contents("http://localhost/tests/api/animal");
 
 <?php echo "<br>fin de la zone de test";?>
 </section>
-<?php require_once(__DIR__."/fin_doc.php");?>
+<?php require_once(__DIR__."/structure/fin_doc.php");?>
