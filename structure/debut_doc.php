@@ -1,6 +1,6 @@
 <?php 
 $msg_error = "<p class=\"alerte\">Erreur fatale camarade !<br>";
-$msg_ok = "<p class=\"confirmation\">Nous vous confirmons que c'est une belle réussite car j'ai bien développé l'appel à la base de données !<br>Bientôt (d'ici un ou deux mille jours) cela serait fait via une API<br>";
+$msg_ok = "<p class=\"confirmation\">Nous vous confirmons que c'est une belle réussite car j'ai bien développé l'appel à l'API' !<br>Cela a pris à peine deux mois !<br>Bravo Nicolas !<br>";
 $versionProjetMajeure = 0;
 $versionProjetMineure = 4;
 $versionProjetPatch = 0;

@@ -20,7 +20,7 @@ $created_date=variableJSON("created_date");
 switch ($methode) {
     case 'GET':
         // Récupérer les produits
-        $sql = "SELECT * FROM animal where actif=1 order by id asc";
+        $sql = "SELECT * FROM liste_animal where actif=1 order by id asc";
         $result = $clientBDDtest->prepare($sql);
         $result->execute();
         $animaux = $result->fetchAll();
@@ -33,7 +33,7 @@ switch ($methode) {
             $created_by = 'api';
         }
         if ($nom_animal !== "" && $type_animal !== ""){
-            $sql = "INSERT INTO animal (nom,type,created_by) VALUES (:nom, :type, :created_by)";
+            $sql = "INSERT INTO liste_animal (nom,type,created_by) VALUES (:nom, :type, :created_by)";
             $result=$clientBDDtest->prepare($sql);
             $result->execute([
                 'nom' => $nom_animal,
@@ -55,7 +55,7 @@ switch ($methode) {
             $updated_by = 'api';
         }
         if($id_animal!==""){
-            $sql = "UPDATE animal SET actif=:actif, updated_date=:updated_date, updated_by=:updated_by WHERE id=:id_animal";
+            $sql = "UPDATE liste_animal SET actif=:actif, updated_date=:updated_date, updated_by=:updated_by WHERE id=:id_animal";
             $result=$clientBDDtest->prepare($sql);
             $result-> execute([
             'actif' => 0,

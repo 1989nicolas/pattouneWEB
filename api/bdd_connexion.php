@@ -1,7 +1,7 @@
 <?php
 $clientBDDtest = new PDO(
-    'mysql:hostl=localhost;dbname=test;charset=utf8',
-    'api',
+    'mysql:hostl=localhost;dbname=animal;charset=utf8',
+    'root',
     ''
 );
 ?>

@@ -9,8 +9,6 @@ function variableForm ($name){
 		return null;
 } //cette fonction permet de récupérer les données d'un formulaire et de nettoyer la valeur, elle retourne la valeur du champ spécifié en argument
 try {
-	$clientBDDtest = new PDO(
-	'mysql:hostl=localhost;dbname=test;charset=utf8','root','');
 	$formData = $_POST;
 	$nom_animal=variableForm("nom");
 	$type_animal=variableForm("type");
